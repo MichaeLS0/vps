@@ -1,4 +1,3 @@
-
 const puppeteer = require('puppeteer');
 
 (async () => {
@@ -15,10 +14,10 @@ const puppeteer = require('puppeteer');
 
 /* ROOM */
 
-const roomName = 'Private Room';
-const maxPlayers = 40;
+const roomName = 'BLAT';
+const maxPlayers = 20;
 const roomPublic = false;
-const token = ""; // Insert token here
+const token = "thr1.AAAAAGhQMpP7nUfACoic3w.ksHB-DKkaKg"; // Insert token here
 
 var roomWebhook = ''; // this webhook is used to send the details of the room (chat, join, leave) ; it should be in a private discord channel
 var gameWebhook = ''; // this webhook is used to send the summary of the games ; it should be in a public discord channel
@@ -56,7 +55,7 @@ var roomPassword = '';
 /* OPTIONS */
 
 var drawTimeLimit = Infinity;
-var maxAdmins = 2;
+var maxAdmins = 1;
 var disableBans = true;
 var maxInactivity = 5;
 var debugMode = false;
@@ -137,7 +136,7 @@ var adminList = [
     // ['INSERT_AUTH_HERE_1', 'NICK_OF_ADMIN_1'],
     // ['INSERT_AUTH_HERE_2', 'NICK_OF_ADMIN_2'],
 ];
-var masterList = [
+var masterList = ['g26Hpmee36L9uNiw09u8beoHhhvQByakyxV0YE67v4I',
     // 'INSERT_MASTER_AUTH_HERE',
     // 'INSERT_MASTER_AUTH_HERE_2'
 ];
