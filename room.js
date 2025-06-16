@@ -16,9 +16,9 @@ const puppeteer = require('puppeteer');
 /* ROOM */
 
 const roomName = 'Private Room';
-const maxPlayers = 40;
+const maxPlayers = 20;
 const roomPublic = false;
-const token = ""; // Insert token here
+const token = "thr1.AAAAAGhQMpP7nUfACoic3w.ksHB-DKkaKg"; // Insert token here
 
 var roomWebhook = ''; // this webhook is used to send the details of the room (chat, join, leave) ; it should be in a private discord channel
 var gameWebhook = ''; // this webhook is used to send the summary of the games ; it should be in a public discord channel
